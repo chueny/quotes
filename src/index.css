@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  background: url(https://images.unsplash.com/photo-1663065718995-e67b0046169d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fG1vdW50YWlucyUyMGxhbmRzY2FwZSUyMGhvcml6b250YWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.App {
+  
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+
+}
+.quote-text {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.author{
+  color: white;
+  
+}
+button{
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(61, 141, 218);
+  background-color: rgb(61, 141, 218);
+  color: white;
+ 
+
+}

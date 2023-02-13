@@ -224,10 +224,10 @@ export default function Quotes() {
 
     return (
         <div>
-            <h1 className="title">Quotes Generator</h1>
-            <p className="quotes">{quote.text}</p>
+            {/* <h1 className="title">Quotes</h1> */}
+            <p className="quote-text">{quote.text}</p>
             <p className="author">- {quote.author}</p>
-            <button onClick={getQuote} id="new-quote">New Quote</button>
+            <button onClick={getQuote} id="new-quote">new quote</button>
         </div>
     )
 }
